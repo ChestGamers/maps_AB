@@ -107,14 +107,11 @@
       mediaHtml += '</div>';
     }
 
-    var actionBtnsHtml = '';
-    if (item.createdBy === currentUserId) {
-      actionBtnsHtml = 
-        '<div class="popup-actions-container">' +
-          '<button onclick="editMarker(\'' + item.id + '\')" class="popup-edit-btn">Редактировать</button>' +
-          '<button onclick="deleteMarker(\'' + item.id + '\')" class="popup-delete-btn">Удалить</button>' +
-        '</div>';
-    }
+    var actionBtnsHtml = 
+      '<div class="popup-actions-container">' +
+        '<button onclick="editMarker(\'' + item.id + '\')" class="popup-edit-btn">Редактировать</button>' +
+        '<button onclick="deleteMarker(\'' + item.id + '\')" class="popup-delete-btn">Удалить</button>' +
+      '</div>';
 
     popupBody.innerHTML = 
       '<div style="font-size: 16px; font-weight: bold; margin-bottom: 8px; color: #fff;">' + title + '</div>' +
@@ -134,8 +131,7 @@
     }
     if (overlay) overlay.classList.remove('active');
   }
-
-  function startApp() {
+function startApp() {
     var mapElement = document.getElementById('map');
     if (!mapElement) return false;
 
@@ -494,8 +490,7 @@
       if (addMarkerBtn) addMarkerBtn.textContent = 'Сохранить изменения';
       if (cancelEditBtn) cancelEditBtn.style.display = 'block';
     };
-
-    function getMarkerCount(catId) {
+function getMarkerCount(catId) {
       return markersData.filter(function (m) {
         var mTargetMap = m.map || 'farm';
         return mTargetMap === currentMapKey && (m.category === catId || m.subcategory === catId);
@@ -689,8 +684,7 @@
         markerGroup.addLayer(marker);
       });
     }
-
-    window.deleteMarker = function (id) {
+window.deleteMarker = function (id) {
       markerToDeleteId = id;
       closeCenteredPopup();
       if (confirmModal) confirmModal.classList.add('active');
