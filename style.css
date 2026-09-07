@@ -326,7 +326,6 @@ textarea {
   transform: rotate(180deg);
 }
 
-/* Иконка в селекторе: крупная (44x44) по центру сверху, текст под ней */
 #icon-select .selected-option {
   flex-direction: column;
   align-items: center;
@@ -502,7 +501,6 @@ textarea {
   background: #475569;
 }
 
-/* Стили для центрированного модального попапа под видео */
 .custom-popup-overlay {
   display: none;
   position: fixed;
@@ -548,7 +546,6 @@ textarea {
   color: #fff;
 }
 
-/* Элементы видео/медиа внутри модального окна */
 .modal-media-element {
   display: block;
   margin: 10px auto;
@@ -557,28 +554,49 @@ textarea {
   object-fit: contain;
 }
 
-/* Широкое видео (около 360px ширина) */
 .modal-media-element.wide {
   width: 360px;
   max-width: 100%;
   height: auto;
 }
 
-/* Вертикальное видео (около 200x300) */
 .modal-media-element.vertical {
   width: 200px;
   height: 300px;
   max-width: 100%;
 }
 
+.popup-actions-container {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.popup-edit-btn {
+  flex: 1;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+  transition: background 0.2s;
+}
+
+.popup-edit-btn:hover {
+  background: #1d4ed8;
+}
+
 .popup-delete-btn {
-  width: 100%;
+  flex: 1;
   background: #dc2626;
   color: #fff;
   border: none;
   padding: 8px;
   border-radius: 6px;
-  margin-top: 12px;
+  margin-top: 0;
   cursor: pointer;
   font-weight: 600;
   font-size: 13px;
