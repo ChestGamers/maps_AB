@@ -15,6 +15,11 @@
       alert('Неверный пароль!');
     }
   };
+  window.logoutAdmin = function() {
+    localStorage.removeItem('map_admin_pass');
+    alert('Режим редактора выключен!');
+    location.reload();
+  };
 
   function getSafeUserId() {
     try {
