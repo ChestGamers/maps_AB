@@ -1,4 +1,21 @@
 (function () {
+  var ADMIN_PASSWORD = '1234'; // Вкажите ваш пароль здесь
+
+  function isAdmin() {
+    return localStorage.getItem('map_admin_pass') === ADMIN_PASSWORD;
+  }
+
+  window.loginAdmin = function() {
+    var pass = prompt('Введите пароль редактора:');
+    if (pass === ADMIN_PASSWORD) {
+      localStorage.setItem('map_admin_pass', pass);
+      alert('Режим редактора включен!');
+      location.reload();
+    } else if (pass !== null) {
+      alert('Неверный пароль!');
+    }
+  };
+
   function getSafeUserId() {
     try {
       var savedId = localStorage.getItem('map_user_id');
@@ -107,11 +124,14 @@
       mediaHtml += '</div>';
     }
 
-    var actionBtnsHtml = 
-      '<div class="popup-actions-container">' +
-        '<button onclick="editMarker(\'' + item.id + '\')" class="popup-edit-btn">Редактировать</button>' +
-        '<button onclick="deleteMarker(\'' + item.id + '\')" class="popup-delete-btn">Удалить</button>' +
-      '</div>';
+    var actionBtnsHtml = '';
+    if (isAdmin()) {
+      actionBtnsHtml = 
+        '<div class="popup-actions-container">' +
+          '<button onclick="editMarker(\'' + item.id + '\')" class="popup-edit-btn">Редактировать</button>' +
+          '<button onclick="deleteMarker(\'' + item.id + '\')" class="popup-delete-btn">Удалить</button>' +
+        '</div>';
+    }
 
     popupBody.innerHTML = 
       '<div style="font-size: 16px; font-weight: bold; margin-bottom: 8px; color: #fff;">' + title + '</div>' +
@@ -467,6 +487,11 @@ function startApp() {
     }
 
     window.editMarker = function (id) {
+      if (!isAdmin()) {
+        alert('У вас нет прав на редактирование!');
+        return;
+      }
+
       var item = markersData.find(function (m) { return m.id === id; });
       if (!item) return;
 
@@ -685,6 +710,10 @@ function getMarkerCount(catId) {
       });
     }
 window.deleteMarker = function (id) {
+      if (!isAdmin()) {
+        alert('У вас нет прав на удаление!');
+        return;
+      }
       markerToDeleteId = id;
       closeCenteredPopup();
       if (confirmModal) confirmModal.classList.add('active');
@@ -735,6 +764,11 @@ window.deleteMarker = function (id) {
 
     if (addMarkerBtn) {
       addMarkerBtn.onclick = async function () {
+        if (!isAdmin()) {
+          alert('У вас нет прав на создание или изменение меток! Введите пароль редактора через loginAdmin().');
+          return;
+        }
+
         if (!markerCoordsInput || !markerCoordsInput.value) {
           alert('Сначала кликните по карте, чтобы получить координаты!');
           return;
