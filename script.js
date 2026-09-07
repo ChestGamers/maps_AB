@@ -15,6 +15,7 @@
   var map, markerGroup, currentOverlay;
   var markersData = [];
   var markerToDeleteId = null;
+  var editingMarkerId = null;
 
   var selectedCategoryValue = 'loot';
   var selectedSubcategoryValue = 'valuable';
@@ -106,16 +107,20 @@
       mediaHtml += '</div>';
     }
 
-    var deleteBtnHtml = '';
+    var actionBtnsHtml = '';
     if (item.createdBy === currentUserId) {
-      deleteBtnHtml = '<button onclick="deleteMarker(\'' + item.id + '\')" class="popup-delete-btn">Удалить метку</button>';
+      actionBtnsHtml = 
+        '<div class="popup-actions-container">' +
+          '<button onclick="editMarker(\'' + item.id + '\')" class="popup-edit-btn">Редактировать</button>' +
+          '<button onclick="deleteMarker(\'' + item.id + '\')" class="popup-delete-btn">Удалить</button>' +
+        '</div>';
     }
 
     popupBody.innerHTML = 
       '<div style="font-size: 16px; font-weight: bold; margin-bottom: 8px; color: #fff;">' + title + '</div>' +
       (desc ? '<div style="font-size: 13px; color: #ccc; margin-bottom: 12px; line-height: 1.4;">' + desc + '</div>' : '') +
       mediaHtml +
-      deleteBtnHtml;
+      actionBtnsHtml;
 
     overlay.classList.add('active');
   }
@@ -129,6 +134,7 @@
     }
     if (overlay) overlay.classList.remove('active');
   }
+
   function startApp() {
     var mapElement = document.getElementById('map');
     if (!mapElement) return false;
@@ -236,6 +242,7 @@
 
     var markerMediaInput = document.getElementById('marker-media');
     var addMarkerBtn = document.getElementById('add-marker-btn');
+    var cancelEditBtn = document.getElementById('cancel-edit-btn');
     var saveJsonBtn = document.getElementById('save-json-btn');
 
     var confirmModal = document.getElementById('confirm-modal');
@@ -403,6 +410,91 @@
 
     setupIconSelectDropdown();
     updateSubcategoriesDropdown('loot');
+
+    function setDropdownCategory(catId) {
+      selectedCategoryValue = catId;
+      var catObj = CATEGORIES_CONFIG.find(function(c) { return c.id === catId; });
+      var catSelected = document.getElementById('category-selected');
+      if (catSelected) catSelected.textContent = catObj ? catObj.title : 'Лут';
+      updateSubcategoriesDropdown(catId);
+    }
+
+    function setDropdownSubcategory(subId) {
+      selectedSubcategoryValue = subId;
+      var targetCat = CATEGORIES_CONFIG.find(function(c) { return c.id === selectedCategoryValue; });
+      var subTitle = 'Подкатегория (не выбрана)';
+      if (targetCat && targetCat.subcategories) {
+        var subObj = targetCat.subcategories.find(function(s) { return s.id === subId; });
+        if (subObj) subTitle = subObj.title;
+      }
+      var subSelected = document.getElementById('subcategory-selected');
+      if (subSelected) subSelected.textContent = subTitle;
+      updateIconSelectOptions();
+    }
+
+    function setDropdownIcon(iconPath) {
+      selectedIconValue = iconPath || '';
+      var iconSelected = document.getElementById('icon-selected');
+      if (iconSelected) {
+        if (iconPath) {
+          var fileName = iconPath.split('/').pop();
+          var cleanName = fileName.replace(/\.[^/.]+$/, "");
+          iconSelected.innerHTML = '<img src="' + iconPath + '" alt="' + fileName + '"><span>' + cleanName + '</span>';
+        } else {
+          iconSelected.innerHTML = '<span>Без иконки</span>';
+        }
+      }
+    }
+
+    function resetForm() {
+      editingMarkerId = null;
+      if (addMarkerBtn) addMarkerBtn.textContent = 'Добавить на карту';
+      if (cancelEditBtn) cancelEditBtn.style.display = 'none';
+
+      if (markerTitleInput) markerTitleInput.value = '';
+      if (markerCoordsInput) markerCoordsInput.value = '';
+      if (markerDescInput) markerDescInput.value = '';
+      if (markerMediaInput) markerMediaInput.value = '';
+      
+      if (markerImageFileInput) markerImageFileInput.value = '';
+      if (markerVideoFileInput) markerVideoFileInput.value = '';
+      if (imageFileLabelText) imageFileLabelText.textContent = '🖼️ Загрузить изображение';
+      if (videoFileLabelText) videoFileLabelText.textContent = '🎥 Загрузить видео';
+
+      setDropdownCategory('loot');
+      setDropdownSubcategory('valuable');
+      setDropdownIcon('');
+    }
+
+    if (cancelEditBtn) {
+      cancelEditBtn.onclick = resetForm;
+    }
+
+    window.editMarker = function (id) {
+      var item = markersData.find(function (m) { return m.id === id; });
+      if (!item) return;
+
+      editingMarkerId = id;
+      closeCenteredPopup();
+
+      var sidebarEl = document.getElementById('sidebar');
+      if (sidebarEl) sidebarEl.classList.add('open');
+      if (addMarkerSection) addMarkerSection.classList.add('open');
+      if (addMarkerArrow) addMarkerArrow.style.transform = 'rotate(90deg)';
+
+      if (markerTitleInput) markerTitleInput.value = item.title || '';
+      if (markerCoordsInput) markerCoordsInput.value = item.coords ? JSON.stringify(item.coords) : '';
+      if (markerDescInput) markerDescInput.value = item.description || '';
+      if (markerMediaInput) markerMediaInput.value = item.media || '';
+
+      setDropdownCategory(item.category || 'loot');
+      if (item.subcategory) setDropdownSubcategory(item.subcategory);
+      setDropdownIcon(item.icon || '');
+
+      if (addMarkerBtn) addMarkerBtn.textContent = 'Сохранить изменения';
+      if (cancelEditBtn) cancelEditBtn.style.display = 'block';
+    };
+
     function getMarkerCount(catId) {
       return markersData.filter(function (m) {
         var mTargetMap = m.map || 'farm';
@@ -679,38 +771,46 @@
 
           var mediaText = markerMediaInput ? markerMediaInput.value : '';
 
-          var newMarker = {
-            id: 'mark_' + Date.now(),
-            map: currentMapKey,
-            createdBy: currentUserId,
-            category: selectedCategoryValue,
-            subcategory: selectedSubcategoryValue || null,
-            title: (markerTitleInput && markerTitleInput.value) || 'Новая метка',
-            coords: coords,
-            icon: selectedIconValue || null,
-            image: imageBase64,
-            video: videoBase64,
-            media: mediaText,
-            description: (markerDescInput && markerDescInput.value) || ''
-          };
+          if (editingMarkerId) {
+            var idx = markersData.findIndex(function (m) { return m.id === editingMarkerId; });
+            if (idx !== -1) {
+              var old = markersData[idx];
+              markersData[idx] = {
+                id: old.id,
+                map: old.map || currentMapKey,
+                createdBy: old.createdBy,
+                category: selectedCategoryValue,
+                subcategory: selectedSubcategoryValue || null,
+                title: (markerTitleInput && markerTitleInput.value) || 'Новая метка',
+                coords: coords,
+                icon: selectedIconValue || null,
+                image: imageBase64 !== null ? imageBase64 : old.image,
+                video: videoBase64 !== null ? videoBase64 : old.video,
+                media: mediaText,
+                description: (markerDescInput && markerDescInput.value) || ''
+              };
+            }
+          } else {
+            var newMarker = {
+              id: 'mark_' + Date.now(),
+              map: currentMapKey,
+              createdBy: currentUserId,
+              category: selectedCategoryValue,
+              subcategory: selectedSubcategoryValue || null,
+              title: (markerTitleInput && markerTitleInput.value) || 'Новая метка',
+              coords: coords,
+              icon: selectedIconValue || null,
+              image: imageBase64,
+              video: videoBase64,
+              media: mediaText,
+              description: (markerDescInput && markerDescInput.value) || ''
+            };
+            markersData.push(newMarker);
+          }
 
-          markersData.push(newMarker);
           renderCategoryTree();
           renderMarkers();
-
-          if (markerTitleInput) markerTitleInput.value = '';
-          if (markerCoordsInput) markerCoordsInput.value = '';
-          if (markerDescInput) markerDescInput.value = '';
-          if (markerMediaInput) markerMediaInput.value = '';
-          
-          if (markerImageFileInput) markerImageFileInput.value = '';
-          if (markerVideoFileInput) markerVideoFileInput.value = '';
-          if (imageFileLabelText) imageFileLabelText.textContent = '🖼️ Загрузить изображение';
-          if (videoFileLabelText) videoFileLabelText.textContent = '🎥 Загрузить видео';
-          
-          selectedIconValue = '';
-          var iconSelected = document.getElementById('icon-selected');
-          if (iconSelected) iconSelected.innerHTML = '<span>Без иконки</span>';
+          resetForm();
         } catch (e) {
           alert('Ошибка при обработке метки или файлов');
         }
