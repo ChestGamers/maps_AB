@@ -1,5 +1,5 @@
 (function () {
-  var ADMIN_PASSWORD = '1234'; // Вкажите ваш пароль здесь
+  var ADMIN_PASSWORD = '1234'; // Укажите ваш пароль здесь
 
   function isAdmin() {
     return localStorage.getItem('map_admin_pass') === ADMIN_PASSWORD;
@@ -42,6 +42,27 @@
   var selectedCategoryValue = 'loot';
   var selectedSubcategoryValue = 'valuable';
   var selectedIconValue = ''; 
+
+  // Конфигурация режимов карт
+  var MAP_MODES_CONFIG = {
+    farm: [
+      { id: 'operation', name: 'Зона операции' },
+      { id: 'lockdown', name: 'Зона блокады' },
+      { id: 'forbidden', name: 'Запретная зона' },
+      { id: 'hardcore', name: 'Хардкорный режим' }
+    ],
+    northridge: [
+      { id: 'operation', name: 'Зона операции' },
+      { id: 'lockdown', name: 'Зона блокады' }
+    ],
+    default: [
+      { id: 'operation', name: 'Зона операции' },
+      { id: 'lockdown', name: 'Зона блокады' },
+      { id: 'forbidden', name: 'Запретная зона' }
+    ]
+  };
+
+  var currentMode = 'operation';
 
   var CATEGORIES_CONFIG = [
     {
@@ -156,7 +177,8 @@
     }
     if (overlay) overlay.classList.remove('active');
   }
-function startApp() {
+
+  function startApp() {
     var mapElement = document.getElementById('map');
     if (!mapElement) return false;
 
@@ -187,6 +209,51 @@ function startApp() {
 
     if (popupCloseBtn) popupCloseBtn.onclick = function () { closeCenteredPopup(); };
     if (popupOverlay) popupOverlay.onclick = function (e) { if (e.target.id === 'custom-popup-overlay') closeCenteredPopup(); };
+
+    // Отрисовка переключателя режимов карты
+    function renderModeSelector(mapId) {
+      var container = document.getElementById('mode-selector');
+      if (!container) return;
+
+      var modes = MAP_MODES_CONFIG[mapId] || MAP_MODES_CONFIG.default;
+
+      var exists = modes.some(function(m) { return m.id === currentMode; });
+      if (!exists) {
+        currentMode = 'operation';
+      }
+
+      container.innerHTML = modes.map(function(mode) {
+        return '<button class="mode-btn ' + (mode.id === currentMode ? 'active' : '') + '" data-mode="' + mode.id + '">' +
+          mode.name +
+        '</button>';
+      }).join('');
+
+      container.querySelectorAll('.mode-btn').forEach(function(btn) {
+        btn.addEventListener('click', function(e) {
+          container.querySelectorAll('.mode-btn').forEach(function(b) { b.classList.remove('active'); });
+          e.target.classList.add('active');
+          currentMode = e.target.getAttribute('data-mode');
+          renderMarkers();
+        });
+      });
+    }
+
+    // Отрисовка чекбоксов режимов в форме добавления/редактирования
+    function renderModeCheckboxes(mapId, selectedModes) {
+      var container = document.getElementById('marker-modes-container');
+      if (!container) return;
+
+      var modes = MAP_MODES_CONFIG[mapId] || MAP_MODES_CONFIG.default;
+      var defaults = selectedModes || modes.map(function(m) { return m.id; });
+
+      container.innerHTML = modes.map(function(m) {
+        var isChecked = defaults.indexOf(m.id) !== -1 ? 'checked' : '';
+        return '<label class="mode-checkbox-item">' +
+          '<input type="checkbox" value="' + m.id + '" ' + isChecked + '>' +
+          m.name +
+        '</label>';
+      }).join('');
+    }
 
     function loadMap(mapKey) {
       if (mapKey === 'tv') mapKey = 'tv_1f';
@@ -232,6 +299,8 @@ function startApp() {
           else btn.classList.remove('active');
         });
 
+        renderModeSelector(currentMapKey);
+        renderModeCheckboxes(currentMapKey);
         renderMarkers();
       };
       img.src = mapConfig.image;
@@ -485,6 +554,7 @@ function startApp() {
       setDropdownCategory('loot');
       setDropdownSubcategory('valuable');
       setDropdownIcon('');
+      renderModeCheckboxes(currentMapKey);
     }
 
     if (cancelEditBtn) {
@@ -516,11 +586,13 @@ function startApp() {
       setDropdownCategory(item.category || 'loot');
       if (item.subcategory) setDropdownSubcategory(item.subcategory);
       setDropdownIcon(item.icon || '');
+      renderModeCheckboxes(item.map || currentMapKey, item.modes);
 
       if (addMarkerBtn) addMarkerBtn.textContent = 'Сохранить изменения';
       if (cancelEditBtn) cancelEditBtn.style.display = 'block';
     };
-function getMarkerCount(catId) {
+
+    function getMarkerCount(catId) {
       return markersData.filter(function (m) {
         var mTargetMap = m.map || 'farm';
         return mTargetMap === currentMapKey && (m.category === catId || m.subcategory === catId);
@@ -685,6 +757,11 @@ function getMarkerCount(catId) {
         var itemMap = item.map || 'farm';
         if (itemMap !== currentMapKey) return;
 
+        // Фильтрация по режиму карты
+        if (item.modes && Array.isArray(item.modes) && item.modes.length > 0) {
+          if (item.modes.indexOf(currentMode) === -1) return;
+        }
+
         var isVisibleCat = activeFilters.has(item.category) || activeFilters.has(item.subcategory);
         if (!isVisibleCat) return;
 
@@ -714,7 +791,8 @@ function getMarkerCount(catId) {
         markerGroup.addLayer(marker);
       });
     }
-window.deleteMarker = function (id) {
+
+    window.deleteMarker = function (id) {
       if (!isAdmin()) {
         alert('У вас нет прав на удаление!');
         return;
@@ -804,6 +882,12 @@ window.deleteMarker = function (id) {
 
           var mediaText = markerMediaInput ? markerMediaInput.value : '';
 
+          var checkedModes = [];
+          var modeCheckboxes = document.querySelectorAll('#marker-modes-container input[type="checkbox"]:checked');
+          modeCheckboxes.forEach(function(cb) {
+            checkedModes.push(cb.value);
+          });
+
           if (editingMarkerId) {
             var idx = markersData.findIndex(function (m) { return m.id === editingMarkerId; });
             if (idx !== -1) {
@@ -817,6 +901,7 @@ window.deleteMarker = function (id) {
                 title: (markerTitleInput && markerTitleInput.value) || 'Новая метка',
                 coords: coords,
                 icon: selectedIconValue || null,
+                modes: checkedModes,
                 image: imageBase64 !== null ? imageBase64 : old.image,
                 video: videoBase64 !== null ? videoBase64 : old.video,
                 media: mediaText,
@@ -833,6 +918,7 @@ window.deleteMarker = function (id) {
               title: (markerTitleInput && markerTitleInput.value) || 'Новая метка',
               coords: coords,
               icon: selectedIconValue || null,
+              modes: checkedModes,
               image: imageBase64,
               video: videoBase64,
               media: mediaText,
