@@ -1,0 +1,1532 @@
+[
+  {
+    "id": "mark_1788777078014",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "spawn",
+    "subcategory": null,
+    "title": "ЧВК",
+    "coords": [
+      679.5,
+      414.3
+    ],
+    "icon": "icon/PlayerSpawn.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Спавн игроков"
+  },
+  {
+    "id": "mark_1788777259070",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "extract",
+    "subcategory": null,
+    "title": "Путь охотника",
+    "coords": [
+      1411.9,
+      2429.2
+    ],
+    "icon": "icon/Платный выход.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Выход за 2 жетона ЧВК\n\nСекретный проход, ведущий к горам. О его существовании знают только местные охотники"
+  },
+  {
+    "id": "mark_1788777371679",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "extract",
+    "subcategory": null,
+    "title": "Южная блокада",
+    "coords": [
+      492.2,
+      2632.4
+    ],
+    "icon": "icon/Платный выход.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Чтобы активировать, доставьте необходимые предметы\n\nНа южной блокаде возведено много укреплений"
+  },
+  {
+    "id": "mark_1788777532042",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "extract",
+    "subcategory": null,
+    "title": "Дорога к Нортриджу",
+    "coords": [
+      1784,
+      3475.6
+    ],
+    "icon": "icon/Выход с таймером.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Открывается через 15 минут после начала рейда (вероятность 100%)\n\nКонтрольная точка к северо-востоку от фермы, которая ведёт в Нортридж"
+  },
+  {
+    "id": "mark_1788777665419",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "extract",
+    "subcategory": null,
+    "title": "Шоссе",
+    "coords": [
+      965.9,
+      4597.2
+    ],
+    "icon": "icon/Эвакуация.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Открытая точка эвакуации (Вероятность 100%)\n\nЭто скоростное шоссе соединяет южную и северную части города. Оно сыграло важную роль в экономическом развитии этого места"
+  },
+  {
+    "id": "mark_1788777779055",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Ящик гранат",
+    "coords": [
+      652,
+      497
+    ],
+    "icon": "icon/Ящик для гранат.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778089497",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      779.2,
+      822.4
+    ],
+    "icon": "icon/Сейф.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1788778120219",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      1197.1,
+      1498.4
+    ],
+    "icon": "icon/Сейф.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1788778149514",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      483,
+      1708.4
+    ],
+    "icon": "icon/Сейф.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1788778174002",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      1301.1,
+      2270.5
+    ],
+    "icon": "icon/Сейф.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1788778213888",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      1229.7,
+      2928.1
+    ],
+    "icon": "icon/Сейф.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1788778377565",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Премиальный ящик с лекарствами",
+    "coords": [
+      817.9,
+      954.1
+    ],
+    "icon": "icon/Большой медицинский ящик.PNG",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778428094",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Большой ящик с оружием",
+    "coords": [
+      870.3,
+      922.1
+    ],
+    "icon": "icon/Большой ящик с оружием.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778455875",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Домашний набор первой помощи",
+    "coords": [
+      868.4,
+      916.7
+    ],
+    "icon": "icon/Домашний набор первой помощи.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778513064",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящик с домашними инструментами",
+    "coords": [
+      889.3,
+      985.9
+    ],
+    "icon": "icon/Ящик с домашними инструментами.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778553566",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Офисный ящик",
+    "coords": [
+      908.2,
+      974.1
+    ],
+    "icon": "icon/Офисные ящики.webp",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778587976",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящик с инструментами эксперта",
+    "coords": [
+      905.2,
+      965.7
+    ],
+    "icon": "icon/Проф. ящик с инструментами.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778648660",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящик с припасами для полевого боя",
+    "coords": [
+      896.7,
+      957
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778710971",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Сундук с экспериментальным предметом",
+    "coords": [
+      646,
+      499.1
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778771919",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Сундук с экспериментальным предметом",
+    "coords": [
+      322.6,
+      701.8
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778797802",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Сундук с экспериментальным предметом",
+    "coords": [
+      625.4,
+      1798.7
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778825245",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Сундук с экспериментальным предметом",
+    "coords": [
+      1179.4,
+      2500.5
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778834440",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Сундук с экспериментальным предметом",
+    "coords": [
+      1525.4,
+      2392.1
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778850453",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Сундук с экспериментальным предметом",
+    "coords": [
+      1573.4,
+      2874.7
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778867111",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Сундук с экспериментальным предметом",
+    "coords": [
+      1129.2,
+      2854.5
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778884113",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Сундук с экспериментальным предметом",
+    "coords": [
+      675.4,
+      2708.1
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778901372",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Сундук с экспериментальным предметом",
+    "coords": [
+      1892,
+      2700
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778910154",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Сундук с экспериментальным предметом",
+    "coords": [
+      1918.7,
+      2969.5
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778927997",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Сундук с экспериментальным предметом",
+    "coords": [
+      1487.8,
+      3555.3
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788778941288",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Сундук с экспериментальным предметом",
+    "coords": [
+      1414.2,
+      4193.1
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779075008",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Премиальный ящик с оружием",
+    "coords": [
+      1358.9,
+      1863
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779103517",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Премиальный ящик с оружием",
+    "coords": [
+      601.7,
+      2316.8
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779111970",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Премиальный ящик с оружием",
+    "coords": [
+      729.8,
+      2239.5
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779118337",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Премиальный ящик с оружием",
+    "coords": [
+      761.6,
+      2177.3
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779147865",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Премиальный ящик с оружием",
+    "coords": [
+      1601,
+      3121.2
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779432628",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "spawn",
+    "subcategory": null,
+    "title": "ЧВК",
+    "coords": [
+      326,
+      1510
+    ],
+    "icon": "icon/PlayerSpawn.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Спавн игрока"
+  },
+  {
+    "id": "mark_1788779512394",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Премиальный ящик с оружием",
+    "coords": [
+      1582.9,
+      3592
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779525084",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Премиальный ящик с оружием",
+    "coords": [
+      1048.8,
+      3728.1
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779591288",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      979.1,
+      2180
+    ],
+    "icon": "icon/Сейф.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1788779678185",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящик с инструментами эксперта",
+    "coords": [
+      566.2,
+      2120
+    ],
+    "icon": "icon/Проф. ящик с инструментами.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779698113",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящик с инструментами эксперта",
+    "coords": [
+      1551.8,
+      1906.7
+    ],
+    "icon": "icon/Проф. ящик с инструментами.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779729471",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящик с инструментами эксперта",
+    "coords": [
+      1667.3,
+      4047
+    ],
+    "icon": "icon/Проф. ящик с инструментами.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779737556",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящик с инструментами эксперта",
+    "coords": [
+      1562.7,
+      4309.2
+    ],
+    "icon": "icon/Проф. ящик с инструментами.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779795832",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Зимнее пальто",
+    "coords": [
+      338.7,
+      1643.3
+    ],
+    "icon": "icon/Пальто.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779818573",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Зимнее пальто",
+    "coords": [
+      854.9,
+      1592.4
+    ],
+    "icon": "icon/Пальто.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779852413",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Зимнее пальто",
+    "coords": [
+      734,
+      2253.5
+    ],
+    "icon": "icon/Пальто.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779866033",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Зимнее пальто",
+    "coords": [
+      676,
+      2349
+    ],
+    "icon": "icon/Пальто.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779873909",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Зимнее пальто",
+    "coords": [
+      707.1,
+      2395.7
+    ],
+    "icon": "icon/Пальто.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779895937",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Зимнее пальто",
+    "coords": [
+      1016.8,
+      3682.6
+    ],
+    "icon": "icon/Пальто.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788779918625",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Зимнее пальто",
+    "coords": [
+      1772,
+      4126.7
+    ],
+    "icon": "icon/Пальто.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788780008215",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Премиальный чемодан",
+    "coords": [
+      577,
+      992.1
+    ],
+    "icon": "icon/Деловой чемодан.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788780029515",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Премиальный чемодан",
+    "coords": [
+      1273.5,
+      2276.9
+    ],
+    "icon": "icon/Деловой чемодан.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788780043923",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Премиальный чемодан",
+    "coords": [
+      762.3,
+      2194.2
+    ],
+    "icon": "icon/Деловой чемодан.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788780055608",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Премиальный чемодан",
+    "coords": [
+      719.1,
+      2242.9
+    ],
+    "icon": "icon/Деловой чемодан.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788780066783",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Премиальный чемодан",
+    "coords": [
+      666.8,
+      2307.3
+    ],
+    "icon": "icon/Деловой чемодан.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788780090071",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Премиальный чемодан",
+    "coords": [
+      1215.3,
+      2928.1
+    ],
+    "icon": "icon/Деловой чемодан.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788780235740",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Ящик с припасами для полевого боя",
+    "coords": [
+      294,
+      782.9
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788780265013",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Ящик с припасами для полевого боя",
+    "coords": [
+      1202.4,
+      1498.5
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788780281806",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Ящик с припасами для полевого боя",
+    "coords": [
+      1321.5,
+      3074.9
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788780300676",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Ящик с припасами для полевого боя",
+    "coords": [
+      1564,
+      3630
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788785245494",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "spawn",
+    "subcategory": null,
+    "title": "ЧВК",
+    "coords": [
+      1253.5,
+      1190.6
+    ],
+    "icon": "icon/PlayerSpawn.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Спавн игрока"
+  },
+  {
+    "id": "mark_1788785459949",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Премиальный портфель",
+    "coords": [
+      724,
+      999.4
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788785494660",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Премиальный портфель",
+    "coords": [
+      719.5,
+      2248.6
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788785506825",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Премиальный портфель",
+    "coords": [
+      772.3,
+      2168.3
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788785523071",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Премиальный портфель",
+    "coords": [
+      1093.2,
+      3580.3
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788785530136",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Премиальный портфель",
+    "coords": [
+      985,
+      3685.8
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788785541776",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Премиальный портфель",
+    "coords": [
+      1097.6,
+      4109.6
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788786857492",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "spawn",
+    "subcategory": null,
+    "title": "ЧВК",
+    "coords": [
+      990.5,
+      4155.5
+    ],
+    "icon": "icon/PlayerSpawn.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Спавн игрока"
+  },
+  {
+    "id": "mark_1788787100395",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Кейс для хранения",
+    "coords": [
+      1551,
+      4304.5
+    ],
+    "icon": "icon/Кейс для хранения.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787186604",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Офисный ящик",
+    "coords": [
+      1549.5,
+      4319.5
+    ],
+    "icon": "icon/Офисные ящики.webp",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787217512",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Обычная куртка",
+    "coords": [
+      1550,
+      4290.5
+    ],
+    "icon": "icon/Куртка.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787322313",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Кейс для хранения",
+    "coords": [
+      1418.5,
+      4183.5
+    ],
+    "icon": "icon/Кейс для хранения.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787353784",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Большой ящик с оружием",
+    "coords": [
+      1467,
+      4235.5
+    ],
+    "icon": "icon/Большой ящик с оружием.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787384707",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Ящик с боеприпасами",
+    "coords": [
+      1475.5,
+      4253
+    ],
+    "icon": "icon/Ящик с патронами.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787418743",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Переносной набор первой помощи",
+    "coords": [
+      1471.5,
+      4263.5
+    ],
+    "icon": "icon/Медицинский контейнер.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787537007",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Кейс для хранения",
+    "coords": [
+      1777.2,
+      4109.9
+    ],
+    "icon": "icon/Кейс для хранения.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787594316",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Гуманитарная помощь",
+    "coords": [
+      1782.5,
+      4094
+    ],
+    "icon": null,
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787652157",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Набор первой помощи эксперта",
+    "coords": [
+      1785.4,
+      4088.1
+    ],
+    "icon": "icon/Сумка с медикаментами.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787702176",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Средний ящик с оружием",
+    "coords": [
+      1780.1,
+      4018.5
+    ],
+    "icon": "icon/Средний ящик с оружием.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787729904",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Длинный ящик с оружием",
+    "coords": [
+      1778,
+      4025.6
+    ],
+    "icon": "icon/Длинный ящик с оружием.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787775851",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Спортивная сумка",
+    "coords": [
+      1775.5,
+      3897.9
+    ],
+    "icon": "icon/Спортивная сумка.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787794496",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Чемодан",
+    "coords": [
+      1769.2,
+      3891.2
+    ],
+    "icon": "icon/Чемодан.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787827571",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Набор первой помощи эксперта",
+    "coords": [
+      1652.5,
+      3885.6
+    ],
+    "icon": "icon/Сумка с медикаментами.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787874613",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Ящик с боеприпасами",
+    "coords": [
+      1684.8,
+      4016.2
+    ],
+    "icon": "icon/Ящик с патронами.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787924039",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Длинный ящик с оружием",
+    "coords": [
+      1692.3,
+      4042.2
+    ],
+    "icon": "icon/Длинный ящик с оружием.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788787954737",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Кейс с документами",
+    "coords": [
+      1668.2,
+      4041.7
+    ],
+    "icon": "icon/кейс с документами.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788788032162",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Бесплатный сейф",
+    "coords": [
+      1688.6,
+      4047.8
+    ],
+    "icon": "icon/Сейф.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Открывается по таймеру"
+  },
+  {
+    "id": "mark_1788788075101",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Кейс для хранения",
+    "coords": [
+      1658.3,
+      4047
+    ],
+    "icon": "icon/Кейс для хранения.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788788298579",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "extract",
+    "subcategory": null,
+    "title": "Каменная стена",
+    "coords": [
+      194.1,
+      887.9
+    ],
+    "icon": "icon/Эвакуация.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Открытая точка эвакуации (Вероятность 100%)\n\nВозводя стену, строители решили переместить валун, но экскаватор не смог выкопать его из земли. Именно поэтому стену пришлось строить вокруг валуна"
+  },
+  {
+    "id": "mark_1788788403230",
+    "map": "farm",
+    "createdBy": "user_1787647362014_7ixcj",
+    "category": "extract",
+    "subcategory": null,
+    "title": "Пруд",
+    "coords": [
+      1160.7,
+      1269
+    ],
+    "icon": "icon/Выход с таймером.svg",
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Открывается через 15 минут после начала рейда (вероятность 100%)\n\nНе до конца выкопанный пруд. Вокруг множество брошенных лодок"
+  }
+]
