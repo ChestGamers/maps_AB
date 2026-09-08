@@ -2115,5 +2115,51 @@
     "video": null,
     "media": "",
     "description": ""
+  },
+  {
+    "id": "mark_1788881489956",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Средний ящик с припасами",
+    "coords": [
+      1888.2,
+      2687
+    ],
+    "icon": "icon/Средний ящик с припасами.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788881526489",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Ящик с припасами",
+    "coords": [
+      1890.8,
+      2670.4
+    ],
+    "icon": "icon/Военные припасы.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
   }
 ]
