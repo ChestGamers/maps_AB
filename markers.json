@@ -293,13 +293,19 @@
     "map": "farm",
     "createdBy": "user_1787647362014_7ixcj",
     "category": "loot",
-    "subcategory": "civilian",
+    "subcategory": "military",
     "title": "Ящик с припасами для полевого боя",
     "coords": [
       896.7,
       957
     ],
-    "icon": null,
+    "icon": "icon/Ящик с припасами для полевого боя.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -316,7 +322,13 @@
       646,
       499.1
     ],
-    "icon": null,
+    "icon": "icon/Сундук с экспериментальным предметом.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -333,7 +345,13 @@
       322.6,
       701.8
     ],
-    "icon": null,
+    "icon": "icon/Сундук с экспериментальным предметом.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -350,7 +368,13 @@
       625.4,
       1798.7
     ],
-    "icon": null,
+    "icon": "icon/Сундук с экспериментальным предметом.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -367,7 +391,13 @@
       1179.4,
       2500.5
     ],
-    "icon": null,
+    "icon": "icon/Сундук с экспериментальным предметом.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -384,7 +414,13 @@
       1525.4,
       2392.1
     ],
-    "icon": null,
+    "icon": "icon/Сундук с экспериментальным предметом.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -401,7 +437,13 @@
       1573.4,
       2874.7
     ],
-    "icon": null,
+    "icon": "icon/Сундук с экспериментальным предметом.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -418,7 +460,13 @@
       1129.2,
       2854.5
     ],
-    "icon": null,
+    "icon": "icon/Сундук с экспериментальным предметом.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -435,7 +483,13 @@
       675.4,
       2708.1
     ],
-    "icon": null,
+    "icon": "icon/Сундук с экспериментальным предметом.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -452,7 +506,13 @@
       1892,
       2700
     ],
-    "icon": null,
+    "icon": "icon/Сундук с экспериментальным предметом.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -469,7 +529,13 @@
       1918.7,
       2969.5
     ],
-    "icon": null,
+    "icon": "icon/Сундук с экспериментальным предметом.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -486,7 +552,13 @@
       1487.8,
       3555.3
     ],
-    "icon": null,
+    "icon": "icon/Сундук с экспериментальным предметом.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -503,7 +575,13 @@
       1414.2,
       4193.1
     ],
-    "icon": null,
+    "icon": "icon/Сундук с экспериментальным предметом.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -639,7 +717,13 @@
       1048.8,
       3728.1
     ],
-    "icon": null,
+    "icon": "icon/Ящик с премиальным оружием.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -962,7 +1046,13 @@
       294,
       782.9
     ],
-    "icon": null,
+    "icon": "icon/Ящик с припасами для полевого боя.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -979,7 +1069,13 @@
       1202.4,
       1498.5
     ],
-    "icon": null,
+    "icon": "icon/Ящик с припасами для полевого боя.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -996,7 +1092,13 @@
       1321.5,
       3074.9
     ],
-    "icon": null,
+    "icon": "icon/Ящик с припасами для полевого боя.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -1013,7 +1115,13 @@
       1564,
       3630
     ],
-    "icon": null,
+    "icon": "icon/Ящик с припасами для полевого боя.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -1047,7 +1155,13 @@
       724,
       999.4
     ],
-    "icon": null,
+    "icon": "icon/Премиальный чемодан.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -1064,7 +1178,13 @@
       719.5,
       2248.6
     ],
-    "icon": null,
+    "icon": "icon/Премиальный чемодан.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -1081,7 +1201,13 @@
       772.3,
       2168.3
     ],
-    "icon": null,
+    "icon": "icon/Премиальный чемодан.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -1098,7 +1224,13 @@
       1093.2,
       3580.3
     ],
-    "icon": null,
+    "icon": "icon/Премиальный чемодан.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -1115,7 +1247,13 @@
       985,
       3685.8
     ],
-    "icon": null,
+    "icon": "icon/Премиальный чемодан.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -1132,7 +1270,13 @@
       1097.6,
       4109.6
     ],
-    "icon": null,
+    "icon": "icon/Премиальный чемодан.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -1302,7 +1446,13 @@
       1782.5,
       4094
     ],
-    "icon": null,
+    "icon": "icon/Гуманитарная помощь.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
     "image": null,
     "video": null,
     "media": "",
@@ -1528,5 +1678,442 @@
     "video": null,
     "media": "",
     "description": "Открывается через 15 минут после начала рейда (вероятность 100%)\n\nНе до конца выкопанный пруд. Вокруг множество брошенных лодок"
+  },
+  {
+    "id": "mark_1788879018252",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "spawn",
+    "subcategory": null,
+    "title": "ЧВК",
+    "coords": [
+      1387.3,
+      4340.1
+    ],
+    "icon": "icon/PlayerSpawn.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Спавн игрока"
+  },
+  {
+    "id": "mark_1788879435379",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Большой ящик",
+    "coords": [
+      1199.3,
+      4366
+    ],
+    "icon": "icon/Большой ящик.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788879468412",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Кейс для хранения",
+    "coords": [
+      1189.5,
+      4367.5
+    ],
+    "icon": "icon/Кейс для хранения.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788879497858",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Спортивная сумка",
+    "coords": [
+      1169.4,
+      4347.8
+    ],
+    "icon": "icon/Спортивная сумка.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788879558316",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Ящик гранат",
+    "coords": [
+      1140.6,
+      4467.2
+    ],
+    "icon": "icon/Ящик для гранат.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788879593589",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Комбинезон",
+    "coords": [
+      1169.8,
+      4478.9
+    ],
+    "icon": "icon/Куртка.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788879612701",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Комбинезон",
+    "coords": [
+      1167.3,
+      4479.8
+    ],
+    "icon": "icon/Куртка.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788879713137",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Ящик с боеприпасами",
+    "coords": [
+      953.9,
+      4543.2
+    ],
+    "icon": "icon/Ящик с патронами.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788879743948",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Домашний набор первой помощи",
+    "coords": [
+      947.8,
+      4539.7
+    ],
+    "icon": "icon/Домашний набор первой помощи.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788879839905",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Большой ящик с оружием",
+    "coords": [
+      1045.1,
+      4131
+    ],
+    "icon": "icon/Большой ящик с оружием.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788879900207",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Чемодан",
+    "coords": [
+      1065.5,
+      4107
+    ],
+    "icon": "icon/Чемодан.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788879938805",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Кейс для хранения",
+    "coords": [
+      1088.6,
+      4120.8
+    ],
+    "icon": "icon/Кейс для хранения.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788880001506",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Ящик с припасами",
+    "coords": [
+      1066.2,
+      4104.3
+    ],
+    "icon": "icon/Военные припасы.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788880059017",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Домашний ПК",
+    "coords": [
+      1100,
+      4123.9
+    ],
+    "icon": "icon/homePC.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788880104769",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Длинный ящик с оружием",
+    "coords": [
+      1106.6,
+      4122.8
+    ],
+    "icon": "icon/Длинный ящик с оружием.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788880147969",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Переносной набор первой помощи",
+    "coords": [
+      1107.1,
+      4114
+    ],
+    "icon": "icon/Медицинский контейнер.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788880172180",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящики",
+    "coords": [
+      1100.2,
+      4116.6
+    ],
+    "icon": "icon/Ящики.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1788880436399",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "spawn",
+    "subcategory": null,
+    "title": "ЧВК",
+    "coords": [
+      294.9,
+      827.3
+    ],
+    "icon": "icon/PlayerSpawn.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Спавн игрока"
+  },
+  {
+    "id": "mark_1788881009554",
+    "map": "farm",
+    "createdBy": "user_1788791042422_93pko",
+    "category": "spawn",
+    "subcategory": null,
+    "title": "ЧВК",
+    "coords": [
+      1873.5,
+      2602.3
+    ],
+    "icon": "icon/PlayerSpawn.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden",
+      "hardcore"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
   }
 ]
