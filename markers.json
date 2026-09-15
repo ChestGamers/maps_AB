@@ -2161,5 +2161,1633 @@
     "video": null,
     "media": "",
     "description": ""
+  },
+  {
+    "id": "mark_1789475141764",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "spawn",
+    "subcategory": null,
+    "title": "ЧВК",
+    "coords": [
+      1361.6,
+      2086.8
+    ],
+    "icon": "icon/PlayerSpawn.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Спавн игрока"
+  },
+  {
+    "id": "mark_1789475174373",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "spawn",
+    "subcategory": null,
+    "title": "ЧВК",
+    "coords": [
+      808.7,
+      2034.6
+    ],
+    "icon": "icon/PlayerSpawn.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Спавн игрока"
+  },
+  {
+    "id": "mark_1789475201457",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      833.4,
+      2108.7
+    ],
+    "icon": "icon/Сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1789475260475",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      937,
+      2424
+    ],
+    "icon": "icon/Сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1789475282315",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      1179,
+      2859.5
+    ],
+    "icon": "icon/Сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1789475310351",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      1063.2,
+      3331.1
+    ],
+    "icon": "icon/Сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1789475557417",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "extract",
+    "subcategory": null,
+    "title": "Северная сторона почтового отделения",
+    "coords": [
+      1810.2,
+      2480.1
+    ],
+    "icon": "icon/Выход с таймером.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Открывается через 10 минут после начала рейда (Вероятность 100%)   У порта, к северу от почтового отделения, есть дорожная развилка. Там почти никто не живёт. Говорят, что эту территорию контролирует нефтяная компания, так что маскировка под одного из её сотрудников может упростить эвакуацию"
+  },
+  {
+    "id": "mark_1789475705809",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "extract",
+    "subcategory": null,
+    "title": "Вход в канализацию",
+    "coords": [
+      1100.6,
+      2597.1
+    ],
+    "icon": "icon/Платный выход.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Доставьте достаточное количество разных предметов, чтобы активировать точку эвакуации (Вероятность 100%)     В подвале старой часовой башни находится вход в канализацию. Оттуда можно попасть в лабиринт проходов под портом"
+  },
+  {
+    "id": "mark_1789475869262",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "extract",
+    "subcategory": null,
+    "title": "Восточный район Тюльпановой улицы",
+    "coords": [
+      854.9,
+      3748.4
+    ],
+    "icon": "icon/Выход с таймером.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Открывается через 10 минут после начала рейда (Вероятность 100%).    На пересечении Тюльпановой улицы и Свит-стрит расположено несколько многоквартирных домов. До блокады это была наиболее оживлённая часть порта"
+  },
+  {
+    "id": "mark_1789475904145",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      363,
+      2225.8
+    ],
+    "icon": "icon/Сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1789475925603",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      526,
+      2891.2
+    ],
+    "icon": "icon/Сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1789475963884",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      962.5,
+      1654.4
+    ],
+    "icon": "icon/Сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "2F  Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1789475986297",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      1314.1,
+      1987.2
+    ],
+    "icon": "icon/Сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "3F    Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1789475999944",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      1414,
+      2273.3
+    ],
+    "icon": "icon/Сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1789476178555",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "extract",
+    "subcategory": null,
+    "title": "Администрация востока",
+    "coords": [
+      129.7,
+      3467.4
+    ],
+    "icon": "icon/Платный выход.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Чтобы активировать, доставьте 2 личных жетона ЧВК (Вероятность 100%).    Часть аванпоста к юго-востоку от Администрации была заблокирована из-за биологической опасности, но блокировщики не против пропустить несколько сильных парней"
+  },
+  {
+    "id": "mark_1789476648229",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "key",
+    "subcategory": null,
+    "title": "Ключ от гостиницы в военном порту",
+    "coords": [
+      893.5,
+      1731.3
+    ],
+    "icon": "icon/key.jpeg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Ключ, отпирающий оптпирающий гостиничный номер в военном порту, где осталось множество ценностей"
+  },
+  {
+    "id": "mark_1789476713053",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Большой ящик с оружием",
+    "coords": [
+      908.9,
+      1729.7
+    ],
+    "icon": "icon/Большой ящик с оружием.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "В закрытой комнате"
+  },
+  {
+    "id": "mark_1789476747074",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Зимняя куртка",
+    "coords": [
+      908.9,
+      1740.3
+    ],
+    "icon": "icon/Пальто.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "В закрытой комнате"
+  },
+  {
+    "id": "mark_1789476785850",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Зимняя куртка",
+    "coords": [
+      889.8,
+      1755.3
+    ],
+    "icon": "icon/Пальто.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "В закрытой комнате"
+  },
+  {
+    "id": "mark_1789476815709",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Сейф",
+    "coords": [
+      901.6,
+      1758.1
+    ],
+    "icon": "icon/Сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "В закрытой комнате"
+  },
+  {
+    "id": "mark_1789477051562",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "key",
+    "subcategory": null,
+    "title": "Ключ от тайной складской комнаты",
+    "coords": [
+      257.5,
+      2894.1
+    ],
+    "icon": "icon/key.jpeg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "С его помощью можно попасть в комнату на третьем этаже здания администрации порта, где владелец ключа спрятал множество ценных вещей"
+  },
+  {
+    "id": "mark_1789477398237",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "spawn",
+    "subcategory": null,
+    "title": "ЧВК",
+    "coords": [
+      586,
+      1531.5
+    ],
+    "icon": "icon/PlayerSpawn.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Спавн игрока"
+  },
+  {
+    "id": "mark_1789477440102",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      512.2,
+      1914.4
+    ],
+    "icon": "icon/Сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1789477906101",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "key",
+    "subcategory": null,
+    "title": "Ключ от лагеря охраны",
+    "coords": [
+      602.1,
+      2479.2
+    ],
+    "icon": "icon/key.jpeg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Ключ, отпирающий главные ворота к северу от административного здания"
+  },
+  {
+    "id": "mark_1789477929442",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Сейф",
+    "coords": [
+      597.2,
+      2469.9
+    ],
+    "icon": "icon/Сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "В закрытой комнате"
+  },
+  {
+    "id": "mark_1789477963132",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Спортивная сумка",
+    "coords": [
+      602,
+      2469.1
+    ],
+    "icon": "icon/Спортивная сумка.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "В закрытой комнате"
+  },
+  {
+    "id": "mark_1789477988183",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Зимняя куртка",
+    "coords": [
+      608.6,
+      2470.7
+    ],
+    "icon": "icon/Пальто.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "В закрытой комнате"
+  },
+  {
+    "id": "mark_1789478625530",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "spawn",
+    "subcategory": null,
+    "title": "ЧВК",
+    "coords": [
+      1242.9,
+      1231.4
+    ],
+    "icon": "icon/PlayerSpawn.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Спавн игрока"
+  },
+  {
+    "id": "mark_1789478660105",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Загадочный сейф",
+    "coords": [
+      482.2,
+      3163.6
+    ],
+    "icon": "icon/Сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможно появление временного сейфа"
+  },
+  {
+    "id": "mark_1789478922554",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "key",
+    "subcategory": null,
+    "title": "Ключ от комнаты В302 апартаментов \"Твайлайт\"",
+    "coords": [
+      1618.4,
+      3141.9
+    ],
+    "icon": "icon/key.jpeg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Ключ от комнаты В302 апартаментов \"Твайлайт\", которые расположены в северо-восточной части Порта. В этой комнате можно найти дорогие предметы роскоши"
+  },
+  {
+    "id": "mark_1789479066439",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Спортивная сумка",
+    "coords": [
+      1354.5,
+      1886.6
+    ],
+    "icon": "icon/Спортивная сумка.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "1F"
+  },
+  {
+    "id": "mark_1789479112753",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящик с инструментами эксперта",
+    "coords": [
+      1354.5,
+      1895
+    ],
+    "icon": "icon/Проф. ящик с инструментами.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "1F"
+  },
+  {
+    "id": "mark_1789479233875",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Спортивная сумка",
+    "coords": [
+      1607,
+      2323
+    ],
+    "icon": "icon/Спортивная сумка.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1789479278050",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящик с домашними инструментами",
+    "coords": [
+      1565,
+      2347.5
+    ],
+    "icon": "icon/Ящик с домашними инструментами.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1789479336305",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящики",
+    "coords": [
+      1516,
+      2488
+    ],
+    "icon": "icon/Ящики.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1789479387366",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Кейс с документами",
+    "coords": [
+      1476.5,
+      2328.5
+    ],
+    "icon": "icon/кейс с документами.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1789479556370",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Офисный ящик",
+    "coords": [
+      1418.6,
+      2269.7
+    ],
+    "icon": "icon/Офисные ящики.webp",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1789479585763",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Кейс с документами",
+    "coords": [
+      1421.1,
+      2275.2
+    ],
+    "icon": "icon/кейс с документами.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1789479661793",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Спортивная сумка",
+    "coords": [
+      1293.7,
+      2493.4
+    ],
+    "icon": "icon/Спортивная сумка.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1789479712449",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящик с инструментами эксперта",
+    "coords": [
+      1175.2,
+      2488.7
+    ],
+    "icon": "icon/Проф. ящик с инструментами.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1789479987362",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "spawn",
+    "subcategory": null,
+    "title": "ЧВК",
+    "coords": [
+      186.6,
+      2028.4
+    ],
+    "icon": "icon/PlayerSpawn.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Спавн игрока"
+  },
+  {
+    "id": "mark_1789480616568",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "key",
+    "subcategory": null,
+    "title": "Ключ от комнаты отдыха администрации",
+    "coords": [
+      257.8,
+      2913.6
+    ],
+    "icon": "icon/key.jpeg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "На втором этаже административного здания. Там хранится большое количество припасов"
+  },
+  {
+    "id": "mark_1789480641513",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящики",
+    "coords": [
+      263.5,
+      2919.3
+    ],
+    "icon": "icon/Ящики.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "В закрытой комнате"
+  },
+  {
+    "id": "mark_1789480700008",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящик с домашними инструментами",
+    "coords": [
+      266.4,
+      2914.1
+    ],
+    "icon": "icon/Ящик с домашними инструментами.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "В закрытой комнате"
+  },
+  {
+    "id": "mark_1789480723505",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Сейф",
+    "coords": [
+      264.1,
+      2910.6
+    ],
+    "icon": "icon/Сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "В закрытой комнате"
+  },
+  {
+    "id": "mark_1789480799528",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Чемодан",
+    "coords": [
+      263.6,
+      2907.8
+    ],
+    "icon": "icon/Чемодан.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1789480830196",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Большой ящик с оружием",
+    "coords": [
+      263.1,
+      2903.1
+    ],
+    "icon": "icon/Большой ящик с оружием.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1789481764475",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Ящик с военными припасами",
+    "coords": [
+      1408.1,
+      2072
+    ],
+    "icon": "icon/Военные припасы.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "2F"
+  },
+  {
+    "id": "mark_1789481852595",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Комбинезон",
+    "coords": [
+      1359.2,
+      1907.4
+    ],
+    "icon": "icon/Рабочая куртка.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "2F"
+  },
+  {
+    "id": "mark_1789481887074",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящик с инструментами эксперта",
+    "coords": [
+      1360.1,
+      1912.9
+    ],
+    "icon": "icon/Проф. ящик с инструментами.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "2F"
+  },
+  {
+    "id": "mark_1789481966741",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Кейс для хранения",
+    "coords": [
+      1413.4,
+      2070.2
+    ],
+    "icon": "icon/Кейс для хранения.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "3F"
+  },
+  {
+    "id": "mark_1789482018732",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящик с инструментами эксперта",
+    "coords": [
+      1352,
+      2080.2
+    ],
+    "icon": "icon/Проф. ящик с инструментами.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "3F"
+  },
+  {
+    "id": "mark_1789482072883",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Комбинезон",
+    "coords": [
+      1321.2,
+      2013
+    ],
+    "icon": "icon/Рабочая куртка.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "3F"
+  },
+  {
+    "id": "mark_1789482110684",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Спортивная сумка",
+    "coords": [
+      1304.4,
+      1977.1
+    ],
+    "icon": "icon/Спортивная сумка.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "3F"
+  },
+  {
+    "id": "mark_1789482162413",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Ящик с боеприпасами",
+    "coords": [
+      1406.1,
+      1886.1
+    ],
+    "icon": "icon/Ящик с патронами.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "3F"
+  },
+  {
+    "id": "mark_1789482196959",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Ящик с боеприпасами",
+    "coords": [
+      1406.8,
+      1890.6
+    ],
+    "icon": "icon/Ящик с патронами.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "3F"
+  },
+  {
+    "id": "mark_1789482317615",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Сундук с экспериментальным предметом",
+    "coords": [
+      1298,
+      1682.5
+    ],
+    "icon": "icon/Сундук с экспериментальным предметом.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1789482634681",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Чемодан",
+    "coords": [
+      1036.4,
+      1599.1
+    ],
+    "icon": "icon/Чемодан.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "1F"
+  },
+  {
+    "id": "mark_1789482688293",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Набор первой помощи эксперта",
+    "coords": [
+      1033,
+      1609.5
+    ],
+    "icon": "icon/Сумка с медикаментами.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "1F"
+  },
+  {
+    "id": "mark_1789482778371",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Касса",
+    "coords": [
+      984.2,
+      1589.3
+    ],
+    "icon": "icon/касса.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "1F"
+  },
+  {
+    "id": "mark_1789482848902",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящик с инструментами эксперта",
+    "coords": [
+      1029.5,
+      1605.3
+    ],
+    "icon": "icon/Проф. ящик с инструментами.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "1F"
+  },
+  {
+    "id": "mark_1789482889943",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Холодильник",
+    "coords": [
+      963.6,
+      1611.2
+    ],
+    "icon": "icon/Холодильник.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "1F"
+  },
+  {
+    "id": "mark_1789482956343",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Средний ящик с оружием",
+    "coords": [
+      922.1,
+      1585.4
+    ],
+    "icon": "icon/Средний ящик с оружием.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "1F"
+  },
+  {
+    "id": "mark_1789483030009",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Ящик с военными припасами",
+    "coords": [
+      1013.8,
+      1686.4
+    ],
+    "icon": "icon/Военные припасы.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "1F"
+  },
+  {
+    "id": "mark_1789483077861",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Домашний набор первой помощи",
+    "coords": [
+      1047.9,
+      1728.1
+    ],
+    "icon": "icon/Домашний набор первой помощи.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "1F"
+  },
+  {
+    "id": "mark_1789483110419",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "medical",
+    "title": "Переносной набор первой помощи",
+    "coords": [
+      1042.1,
+      1725.6
+    ],
+    "icon": "icon/Медицинский контейнер.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "1F"
+  },
+  {
+    "id": "mark_1789483177067",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Кейс для хранения",
+    "coords": [
+      1029.9,
+      1671.8
+    ],
+    "icon": "icon/Кейс для хранения.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "2F"
+  },
+  {
+    "id": "mark_1789483220709",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Военный ящик",
+    "coords": [
+      984.6,
+      1649.7
+    ],
+    "icon": "icon/Военный ящик.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "2F"
+  },
+  {
+    "id": "mark_1789483283553",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Усовершенствованный ящик с оружием",
+    "coords": [
+      989.9,
+      1617.9
+    ],
+    "icon": "icon/Ящик с премиальным оружием.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "2F"
+  },
+  {
+    "id": "mark_1789483378746",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Чемодан",
+    "coords": [
+      980.4,
+      1611.9
+    ],
+    "icon": "icon/Чемодан.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "2F"
+  },
+  {
+    "id": "mark_1789483446751",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Ящик с домашними инструментами",
+    "coords": [
+      903.5,
+      1576.9
+    ],
+    "icon": "icon/Ящик с домашними инструментами.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "2F"
+  },
+  {
+    "id": "mark_1789483502365",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Спортивная сумка",
+    "coords": [
+      918.1,
+      1678.2
+    ],
+    "icon": "icon/Спортивная сумка.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "2F"
+  },
+  {
+    "id": "mark_1789483542941",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Длинный ящик с оружием",
+    "coords": [
+      916.7,
+      1711.6
+    ],
+    "icon": "icon/Деревянный ящик с оружием.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "2F"
+  },
+  {
+    "id": "mark_1789483622968",
+    "map": "port",
+    "createdBy": "user_1788790967020_8it0a",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Чемодан",
+    "coords": [
+      891.8,
+      1757.3
+    ],
+    "icon": "icon/Чемодан.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "2F"
   }
 ]
