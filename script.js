@@ -103,7 +103,7 @@
     { id: 'quest', title: 'Задания', icons: [] }
   ];
 
-  var MAPS_CONFIG = {
+    var MAPS_CONFIG = {
     farm: { title: 'Ферма', image: 'map/farm.jpg' },
     valley: { title: 'Долина', image: 'map/valley.jpg' },
     northridge: { title: 'Нортридж', image: 'map/northridge.jpg' },
@@ -114,7 +114,11 @@
     armory_2f: { title: 'Арсенал (2 Этаж)', image: 'map/armory_2f.jpg', parent: 'armory' },
     tv: { title: 'ТВ', image: 'map/tv_1f.jpg' },
     tv_1f: { title: 'ТВ (1 Этаж)', image: 'map/tv_1f.jpg', parent: 'tv' },
-    tv_2f: { title: 'ТВ (2 Этаж)', image: 'map/tv_2f.jpg', parent: 'tv' }
+    tv_2f: { title: 'ТВ (2 Этаж)', image: 'map/tv_2f.jpg', parent: 'tv' },
+
+    // Новые карты:
+    bay_area: { title: 'Район залива', image: 'map/Район залива.jpg' },
+    airport: { title: 'Аэропорт', image: 'map/Аэропорт.jpg' }
   };
 
   var currentMapKey = 'farm';
