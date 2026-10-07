@@ -119,8 +119,8 @@
     // Новые карты:
     bay_area: { title: 'Район залива', image: 'map/Район залива.jpg' },
     airport: { title: 'Аэропорт', image: 'map/Аэропорт.jpg' }
-    Аэропорт_1f { title: 'Аэропорт (1 этаж)', image: 'map/Аэропорт_1f.jpg', parent: 'Аэропорт' }
-    Аэропорт_2f { title: 'Аэропорт (2 этаж)', image: 'map/Аэропорт_2f.jpg', parent: 'Аэропорт' }
+    airport_1f { title: 'Аэропорт (1 этаж)', image: 'map/Аэропорт_1f.jpg', parent: 'Аэропорт' }
+    airport_2f { title: 'Аэропорт (2 этаж)', image: 'map/Аэропорт_2f.jpg', parent: 'Аэропорт' }
   };
 
   var currentMapKey = 'farm';
