@@ -1,5 +1,5 @@
 (function () {
-  var ADMIN_PASSWORD = '1234'; // Укажите ваш пароль здесь
+  var ADMIN_PASSWORD = '1234'; // Укажите ваш пароль редактора
 
   function isAdmin() {
     return localStorage.getItem('map_admin_pass') === ADMIN_PASSWORD;
@@ -15,6 +15,7 @@
       alert('Неверный пароль!');
     }
   };
+
   window.logoutAdmin = function() {
     localStorage.removeItem('map_admin_pass');
     alert('Режим редактора выключен!');
@@ -43,7 +44,6 @@
   var selectedSubcategoryValue = 'valuable';
   var selectedIconValue = ''; 
 
-  // Конфигурация режимов карт
   var MAP_MODES_CONFIG = {
     farm: [
       { id: 'operation', name: 'Зона операции' },
@@ -103,7 +103,7 @@
     { id: 'quest', title: 'Задания', icons: ['icon/Терминал заданий.png'] }
   ];
 
-    var MAPS_CONFIG = {
+  var MAPS_CONFIG = {
     farm: { title: 'Ферма', image: 'map/farm.jpg' },
     valley: { title: 'Долина', image: 'map/valley.jpg' },
     northridge: { title: 'Нортридж', image: 'map/northridge.jpg' },
@@ -115,12 +115,10 @@
     tv: { title: 'ТВ', image: 'map/tv_1f.jpg' },
     tv_1f: { title: 'ТВ (1 Этаж)', image: 'map/tv_1f.jpg', parent: 'tv' },
     tv_2f: { title: 'ТВ (2 Этаж)', image: 'map/tv_2f.jpg', parent: 'tv' },
-
-    // Новые карты:
     bay_area: { title: 'Район залива', image: 'map/Район залива.jpg' },
-    airport: { title: 'Аэропорт', image: 'map/Аэропорт.jpg' }
-    airport_1f { title: 'Аэропорт (1 этаж)', image: 'map/Аэропорт_1f.png', parent: 'Аэропорт' }
-    airport_2f { title: 'Аэропорт (2 этаж)', image: 'map/Аэропорт_2f.png', parent: 'Аэропорт' }
+    airport: { title: 'Аэропорт', image: 'map/Аэропорт_1f.png' },
+    airport_1f: { title: 'Аэропорт (1 этаж)', image: 'map/Аэропорт_1f.png', parent: 'airport' },
+    airport_2f: { title: 'Аэропорт (2 этаж)', image: 'map/Аэропорт_2f.png', parent: 'airport' }
   };
 
   var currentMapKey = 'farm';
@@ -216,7 +214,6 @@
     if (popupCloseBtn) popupCloseBtn.onclick = function () { closeCenteredPopup(); };
     if (popupOverlay) popupOverlay.onclick = function (e) { if (e.target.id === 'custom-popup-overlay') closeCenteredPopup(); };
 
-    // Отрисовка переключателя режимов карты
     function renderModeSelector(mapId) {
       var container = document.getElementById('mode-selector');
       if (!container) return;
@@ -244,7 +241,6 @@
       });
     }
 
-    // Отрисовка чекбоксов режимов в форме добавления/редактирования
     function renderModeCheckboxes(mapId, selectedModes) {
       var container = document.getElementById('marker-modes-container');
       if (!container) return;
@@ -263,6 +259,7 @@
 
     function loadMap(mapKey) {
       if (mapKey === 'tv') mapKey = 'tv_1f';
+      if (mapKey === 'airport') mapKey = 'airport_1f';
 
       var mapConfig = MAPS_CONFIG[mapKey];
       if (!mapConfig) return;
@@ -290,14 +287,18 @@
 
         var armoryFloorMenu = document.getElementById('armory-floors');
         var telecenterFloorMenu = document.getElementById('telecenter-floors');
+        var airportFloorMenu = document.getElementById('airport-floors');
 
         if (armoryFloorMenu) armoryFloorMenu.style.display = 'none';
         if (telecenterFloorMenu) telecenterFloorMenu.style.display = 'none';
+        if (airportFloorMenu) airportFloorMenu.style.display = 'none';
 
         if (parentMap === 'armory' && armoryFloorMenu) {
           armoryFloorMenu.style.display = 'flex';
         } else if (parentMap === 'tv' && telecenterFloorMenu) {
           telecenterFloorMenu.style.display = 'flex';
+        } else if (parentMap === 'airport' && airportFloorMenu) {
+          airportFloorMenu.style.display = 'flex';
         }
 
         document.querySelectorAll('.floor-btn').forEach(function (btn) {
@@ -763,7 +764,6 @@
         var itemMap = item.map || 'farm';
         if (itemMap !== currentMapKey) return;
 
-        // Фильтрация по режиму карты
         if (item.modes && Array.isArray(item.modes) && item.modes.length > 0) {
           if (item.modes.indexOf(currentMode) === -1) return;
         }
