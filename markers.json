@@ -5268,12 +5268,12 @@
     "createdBy": "user_1791191714693_v255g",
     "category": "loot",
     "subcategory": "civilian",
-    "title": "Премиальный портфель",
+    "title": "Премиальный кейс",
     "coords": [
       926.3,
       1857.1
     ],
-    "icon": "icon/Премиальный чемодан.png",
+    "icon": "icon/Премиальный кейс.png",
     "modes": [
       "operation",
       "lockdown",
@@ -5383,7 +5383,7 @@
       939.2,
       1737.1
     ],
-    "icon": null,
+    "icon": "icon/Автомат для самолётиков.png",
     "modes": [
       "operation",
       "lockdown",
@@ -5779,7 +5779,7 @@
       835.8,
       1663.6
     ],
-    "icon": null,
+    "icon": "icon/Большой ящик с материалами.png",
     "modes": [
       "operation",
       "lockdown",
@@ -6021,7 +6021,7 @@
       1055.8,
       1894.5
     ],
-    "icon": null,
+    "icon": "icon/Большой ящик с материалами.png",
     "modes": [
       "operation",
       "lockdown",
@@ -6131,7 +6131,7 @@
       1042.7,
       1890.1
     ],
-    "icon": null,
+    "icon": "icon/Большой ящик с материалами.png",
     "modes": [
       "operation",
       "lockdown",
@@ -7033,7 +7033,7 @@
       1169.2,
       2767
     ],
-    "icon": null,
+    "icon": "icon/Большой ящик с материалами.png",
     "modes": [
       "operation",
       "lockdown",
@@ -7650,6 +7650,116 @@
       3015.7
     ],
     "icon": "icon/Сброшенный с воздуха контейнер.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1791410896113",
+    "map": "airport",
+    "createdBy": "user_1790547559516_ksp1r",
+    "category": "interact",
+    "subcategory": null,
+    "title": "Рубильник",
+    "coords": [
+      956,
+      2334.3
+    ],
+    "icon": "icon/Рубильник для входа.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1791411007819",
+    "map": "airport",
+    "createdBy": "user_1790547559516_ksp1r",
+    "category": "interact",
+    "subcategory": null,
+    "title": "Рубильник",
+    "coords": [
+      809.1,
+      2379.3
+    ],
+    "icon": "icon/Рубильник для входа.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1791411024362",
+    "map": "airport",
+    "createdBy": "user_1790547559516_ksp1r",
+    "category": "interact",
+    "subcategory": null,
+    "title": "Рубильник",
+    "coords": [
+      769.5,
+      2501.5
+    ],
+    "icon": "icon/Рубильник для входа.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1791411057403",
+    "map": "airport",
+    "createdBy": "user_1790547559516_ksp1r",
+    "category": "interact",
+    "subcategory": null,
+    "title": "Рубильник",
+    "coords": [
+      1026.7,
+      2633.6
+    ],
+    "icon": "icon/Рубильник для входа.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1791411077214",
+    "map": "airport",
+    "createdBy": "user_1790547559516_ksp1r",
+    "category": "interact",
+    "subcategory": null,
+    "title": "Рубильник",
+    "coords": [
+      1074.4,
+      2610.6
+    ],
+    "icon": "icon/Рубильник для входа.png",
     "modes": [
       "operation",
       "lockdown",
