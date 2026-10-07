@@ -82,7 +82,7 @@
         { 
           id: 'civilian', 
           title: 'Гражданский', 
-          icons: ['icon/Средний ящик с припасами.png','icon/Холодильник.png','icon/кейс с документами.svg', 'icon/Кейс для хранения.svg', 'icon/Ящики.svg', 'icon/Офисные ящики.webp', 'icon/Чемодан.svg', 'icon/Спортивная сумка.svg', 'icon/Проф. ящик с инструментами.svg', 'icon/Ящик с домашними инструментами.svg', 'icon/Деловой чемодан.svg', 'icon/homePC.svg', 'icon/Большой ящик.png', 'icon/Брошенный кейс.png', 'icon/Премиальный чемодан.png'] 
+          icons: ['icon/Средний ящик с припасами.png','icon/Холодильник.png','icon/кейс с документами.svg', 'icon/Кейс для хранения.svg', 'icon/Ящики.svg', 'icon/Офисные ящики.webp', 'icon/Чемодан.svg', 'icon/Спортивная сумка.svg', 'icon/Проф. ящик с инструментами.svg', 'icon/Ящик с домашними инструментами.svg', 'icon/Большой набор инструментов.png', 'icon/Деловой чемодан.svg', 'icon/homePC.svg', 'icon/Большой ящик.png', 'icon/Брошенный кейс.png', 'icon/Премиальный чемодан.png'] 
         },
         { 
           id: 'medical', 
@@ -99,7 +99,7 @@
     { id: 'key', title: 'Закрытые комнаты', icons: ['icon/key.jpeg'] },
     { id: 'extract', title: 'Точки эвакуации', icons: ['icon/Эвакуация.svg', 'icon/Платный выход.svg', 'icon/Выход с таймером.svg'] },
     { id: 'spawn', title: 'Точки появления', icons: ['icon/PlayerSpawn.svg', 'icon/BossSpawn.svg'] },
-    { id: 'interact', title: 'Объекты взаимодействия', icons: ['icon/Приёмное устр. для припасов.svg', 'icon/Военный терминал.png', 'icon/Багажник.png', 'icon/Модель самолёта.png'] },
+    { id: 'interact', title: 'Объекты взаимодействия', icons: ['icon/Приёмное устр. для припасов.svg', 'icon/Военный терминал.png', 'icon/Багажник.png', 'icon/Модель самолёта.png', 'icon/Автомат для самолётиков.png] },
     { id: 'quest', title: 'Задания', icons: [] }
   ];
 
