@@ -99,7 +99,7 @@
     { id: 'key', title: 'Закрытые комнаты', icons: ['icon/key.jpeg'] },
     { id: 'extract', title: 'Точки эвакуации', icons: ['icon/Эвакуация.svg', 'icon/Платный выход.svg', 'icon/Выход с таймером.svg'] },
     { id: 'spawn', title: 'Точки появления', icons: ['icon/PlayerSpawn.svg', 'icon/BossSpawn.svg'] },
-    { id: 'interact', title: 'Объекты взаимодействия', icons: ['icon/Приёмное устр. для припасов.svg', 'icon/Военный терминал.png', 'icon/Багажник.png', 'icon/Модель самолёта.png', 'icon/Автомат для самолётиков.png] },
+    { id: 'interact', title: 'Объекты взаимодействия', icons: ['icon/Приёмное устр. для припасов.svg', 'icon/Военный терминал.png', 'icon/Багажник.png', 'icon/Модель самолёта.png', 'icon/Автомат для самолётиков.png'] },
     { id: 'quest', title: 'Задания', icons: [] }
   ];
 
