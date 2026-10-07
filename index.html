@@ -47,7 +47,6 @@
           <span class="map-card-title">ТВ</span>
         </div>
 
-        <!-- Новые карты -->
         <div class="map-card" data-map="bay_area">
           <img src="map/Район залива.jpg" alt="Район залива">
           <span class="map-card-title">Район залива</span>
@@ -60,23 +59,25 @@
 
       <!-- Переключатель этажей Аэропорта -->
       <div id="airport-floors" class="floor-selector" style="display: none;">
-        <button class="floor-btn" data-map="Аэропорт_1f">1 Этаж</button>
-        <button class="floor-btn" data-map="Аэропорт_2f">2 Этаж</button>
+        <button class="floor-btn" data-map="airport_1f">1 Этаж</button>
+        <button class="floor-btn" data-map="airport_2f">2 Этаж</button>
       </div>
       
+      <!-- Переключатель этажей Арсенала -->
       <div id="armory-floors" class="floor-selector" style="display: none;">
         <button class="floor-btn" data-map="armory_b1">Подвал</button>
         <button class="floor-btn" data-map="armory_1f">1 Этаж</button>
         <button class="floor-btn" data-map="armory_2f">2 Этаж</button>
       </div>
 
+      <!-- Переключатель этажей ТВ-Центра -->
       <div id="telecenter-floors" class="floor-selector" style="display: none;">
         <button class="floor-btn" data-map="tv_1f">1 Этаж</button>
         <button class="floor-btn" data-map="tv_2f">2 Этаж</button>
       </div>
 
-<div class="section-title">Режим карты</div>
-<div class="mode-selector" id="mode-selector"></div>
+      <div class="section-title">Режим карты</div>
+      <div class="mode-selector" id="mode-selector"></div>
 
       <div class="section-title" style="margin-top: 15px;">ПОИСК ФИЛЬТРОВ</div>
       <input type="text" id="filter-search" placeholder="Поиск категории...">
@@ -91,8 +92,8 @@
         </div>
 
         <div id="add-marker-section" class="collapsible-content">
-<div class="section-title">Показывать в режимах</div>
-<div class="modes-checkbox-group" id="marker-modes-container"></div>
+          <div class="section-title">Показывать в режимах</div>
+          <div class="modes-checkbox-group" id="marker-modes-container"></div>
           <input type="text" id="marker-title" placeholder="Название метки">
           <input type="text" id="marker-coords" placeholder="Координаты (кликните по карте)" readonly>
           <textarea id="marker-desc" placeholder="Описание" rows="3"></textarea>
