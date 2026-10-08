@@ -309,6 +309,11 @@
         renderModeCheckboxes(currentMapKey);
         renderMarkers();
       };
+
+      img.onerror = function () {
+        alert('Ошибка: Не удалось загрузить файл карты "' + mapConfig.image + '". Проверьте правильность пути, имени и расширения файла (.jpg/.png) в папке map/!');
+      };
+
       img.src = mapConfig.image;
     }
 
@@ -316,8 +321,12 @@
       card.onclick = function () { loadMap(this.getAttribute('data-map')); };
     });
 
-    document.querySelectorAll('.floor-btn').forEach(function (btn) {
-      btn.onclick = function () { loadMap(this.getAttribute('data-map')); };
+    document.addEventListener('click', function (e) {
+      var floorBtn = e.target.closest('.floor-btn');
+      if (floorBtn) {
+        var targetMap = floorBtn.getAttribute('data-map');
+        if (targetMap) loadMap(targetMap);
+      }
     });
 
     var categoryTree = document.getElementById('category-tree');
@@ -461,10 +470,6 @@
         if (!wasOpen) box.classList.add('open');
       };
     }
-
-    document.onclick = function () {
-      document.querySelectorAll('.custom-select-box').forEach(function (b) { b.classList.remove('open'); });
-    };
 
     function updateSubcategoriesDropdown(categoryVal) {
       var subBox = document.getElementById('subcategory-select');
@@ -853,7 +858,7 @@
     if (addMarkerBtn) {
       addMarkerBtn.onclick = async function () {
         if (!isAdmin()) {
-          alert('У вас нет прав на создание или изменение меток! Введите пароль редактора через loginAdmin().');
+          alert('У вас нет прав на создание или изменение меток!');
           return;
         }
 
