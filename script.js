@@ -116,9 +116,9 @@
     tv_1f: { title: 'ТВ (1 Этаж)', image: 'map/tv_1f.jpg', parent: 'tv' },
     tv_2f: { title: 'ТВ (2 Этаж)', image: 'map/tv_2f.jpg', parent: 'tv' },
     bay_area: { title: 'Район залива', image: 'map/Район залива.jpg' },
-    airport: { title: 'Аэропорт', image: 'map/Аэропорт.jpg' },
-    airport_1f: { title: 'Аэропорт (1 этаж)', image: 'map/Аэропорт_1f.png', parent: 'airport' },
-    airport_2f: { title: 'Аэропорт (2 этаж)', image: 'map/Аэропорт_2f.png', parent: 'airport' }
+    airport: { title: 'Аэропорт (Общая)', image: 'map/Аэропорт.jpg' },
+    airport_1f: { title: 'Аэропорт (1 Этаж)', image: 'map/Аэропорт_1f.png', parent: 'airport' },
+    airport_2f: { title: 'Аэропорт (2 Этаж)', image: 'map/Аэропорт_2f.png', parent: 'airport' }
   };
 
   var currentMapKey = 'farm';
@@ -259,7 +259,6 @@
 
     function loadMap(mapKey) {
       if (mapKey === 'tv') mapKey = 'tv_1f';
-      if (mapKey === 'airport') mapKey = 'airport_1f';
 
       var mapConfig = MAPS_CONFIG[mapKey];
       if (!mapConfig) return;
