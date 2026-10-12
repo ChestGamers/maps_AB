@@ -99,7 +99,19 @@
     { id: 'key', title: 'Закрытые комнаты', icons: ['icon/key.jpeg', 'icon/Ключ от тайника в районе залива.png', 'icon/Карта доступа к зоне управления.png'] },
     { id: 'extract', title: 'Точки эвакуации', icons: ['icon/Эвакуация.svg', 'icon/Платный выход.svg', 'icon/Выход с таймером.svg'] },
     { id: 'spawn', title: 'Точки появления', icons: ['icon/PlayerSpawn.svg', 'icon/BossSpawn.svg'] },
-    { id: 'interact', title: 'Объекты взаимодействия', icons: ['icon/Приёмное устр. для припасов.svg', 'icon/Переключатель выхода.png', 'icon/Рубильник для входа.jpg', 'icon/Военный терминал.png', 'icon/Багажник.png', 'icon/Модель самолёта.png', 'icon/Автомат для самолётиков.png'] },
+    { 
+      id: 'interact', 
+      title: 'Объекты взаимодействия', 
+      icons: [
+        'icon/Приёмное устр. для припасов.svg', 
+        'icon/Переключатель выхода.png', 
+        'icon/Рубильник для входа.jpg', 
+        'icon/Военный терминал.png', 
+        'icon/Багажник.png', 
+        'icon/Модель самолёта.png', 
+        'icon/Автомат для самолётиков.png'
+      ] 
+    },
     { id: 'quest', title: 'Задания', icons: ['icon/Терминал заданий.png'] }
   ];
 
@@ -311,7 +323,7 @@
       };
 
       img.onerror = function () {
-        alert('Ошибка: Не удалось загрузить файл карты "' + mapConfig.image + '". Проверьте правильность пути, имени и расширения файла (.jpg/.png) в папке map/!');
+        alert('Ошибка: Не удалось загрузить файл карты "' + mapConfig.image + '".');
       };
 
       img.src = mapConfig.image;
@@ -451,6 +463,11 @@
           box.classList.remove('open');
           container.querySelectorAll('.icon-option-item').forEach(function (i) { i.classList.remove('selected'); });
           item.classList.add('selected');
+
+          // Автоматически заполняем название метки именем иконки
+          if (markerTitleInput) {
+            markerTitleInput.value = cleanName;
+          }
         };
 
         container.appendChild(item);
@@ -612,15 +629,12 @@
 
     function renderCategoryTree() {
       if (!categoryTree) return;
-      var searchQuery = filterSearch ? filterSearch.value.toLowerCase().trim() : '';
       categoryTree.innerHTML = '';
 
       CATEGORIES_CONFIG.forEach(function (cat) {
         var catCount = getMarkerCount(cat.id);
         var isCatActive = activeFilters.has(cat.id);
         var isExpanded = expandedCategories.has(cat.id);
-
-        if (searchQuery && !cat.title.toLowerCase().includes(searchQuery)) return;
 
         var catCard = document.createElement('div');
         catCard.className = 'cat-card ' + (isCatActive ? '' : 'disabled');
@@ -764,6 +778,8 @@
       markerGroup.clearLayers();
       if (!Array.isArray(markersData)) return;
 
+      var searchQuery = filterSearch ? filterSearch.value.toLowerCase().trim() : '';
+
       markersData.forEach(function (item) {
         var itemMap = item.map || 'farm';
         if (itemMap !== currentMapKey) return;
@@ -776,6 +792,11 @@
         if (!isVisibleCat) return;
 
         if (activeIconFilters.size > 0 && item.icon && !activeIconFilters.has(item.icon)) {
+          return;
+        }
+
+        // Фильтрация маркеров на карте по введённому названию
+        if (searchQuery && item.title && !item.title.toLowerCase().includes(searchQuery)) {
           return;
         }
 
@@ -973,7 +994,12 @@
         });
     }
 
-    if (filterSearch) filterSearch.oninput = renderCategoryTree;
+    // Поиск теперь обновляет отображение меток на карте по их названию
+    if (filterSearch) {
+      filterSearch.oninput = function () {
+        renderMarkers();
+      };
+    }
 
     var sidebar = document.getElementById('sidebar');
     var openBtn = document.getElementById('open-filters-btn');
