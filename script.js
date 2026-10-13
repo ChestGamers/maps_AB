@@ -345,6 +345,15 @@
 
     var categoryTree = document.getElementById('category-tree');
     var filterSearch = document.getElementById('filter-search');
+    var resetIconFiltersBtn = document.getElementById('reset-icon-filters-btn');
+
+    if (resetIconFiltersBtn) {
+      resetIconFiltersBtn.onclick = function () {
+        activeIconFilters.clear();
+        renderCategoryTree();
+        renderMarkers();
+      };
+    }
 
     var addMarkerSection = document.getElementById('add-marker-section');
     var toggleAddMarkerBtn = document.getElementById('toggle-add-marker');
@@ -466,7 +475,6 @@
           container.querySelectorAll('.icon-option-item').forEach(function (i) { i.classList.remove('selected'); });
           item.classList.add('selected');
 
-          // Автоматическое заполнение названия метки именем иконки
           if (markerTitleInput) {
             markerTitleInput.value = cleanName;
           }
@@ -637,6 +645,10 @@
       if (!categoryTree) return;
       categoryTree.innerHTML = '';
 
+      if (resetIconFiltersBtn) {
+        resetIconFiltersBtn.style.display = activeIconFilters.size > 0 ? 'block' : 'none';
+      }
+
       CATEGORIES_CONFIG.forEach(function (cat) {
         var catCount = getMarkerCount(cat.id);
         var isCatActive = activeFilters.has(cat.id);
@@ -802,7 +814,6 @@
           return;
         }
 
-        // Фильтрация по названию маркера
         if (searchQuery && item.title && !item.title.toLowerCase().includes(searchQuery)) {
           return;
         }
