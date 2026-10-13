@@ -802,24 +802,25 @@
           return;
         }
 
-        // Фильтрация маркеров на карте по введённому названию
+        // Фильтрация по названию маркера
         if (searchQuery && item.title && !item.title.toLowerCase().includes(searchQuery)) {
           return;
         }
 
         var markerOptions = {};
         if (item.icon) {
-          // Проверяем, выбрана ли иконка в активных фильтрах
           var isFilteredByIcon = activeIconFilters.size > 0 && activeIconFilters.has(item.icon);
+          var categoryClass = item.category ? 'glow-' + item.category : 'glow-loot';
+
           markerOptions.icon = L.icon({
             iconUrl: item.icon,
             iconSize: [28, 28],
             iconAnchor: [14, 14],
             popupAnchor: [0, -14],
-            className: isFilteredByIcon ? 'glow-marker' : ''
+            className: isFilteredByIcon ? categoryClass : ''
           });
         }
-        
+
         var marker = L.marker(item.coords, markerOptions);
 
         marker.on('click', function (e) {
@@ -827,13 +828,15 @@
             e.originalEvent.stopPropagation();
           }
 
-          // Переключение золотого свечения
           if (lastSelectedMarker && lastSelectedMarker._icon) {
-            lastSelectedMarker._icon.classList.remove('glow-marker');
+            ['glow-loot', 'glow-key', 'glow-extract', 'glow-spawn', 'glow-interact', 'glow-quest'].forEach(function(cls) {
+              lastSelectedMarker._icon.classList.remove(cls);
+            });
           }
 
           if (marker._icon) {
-            marker._icon.classList.add('glow-marker');
+            var categoryClass = item.category ? 'glow-' + item.category : 'glow-loot';
+            marker._icon.classList.add(categoryClass);
             lastSelectedMarker = marker;
           }
 
@@ -874,9 +877,10 @@
     }
 
     map.on('click', function (e) {
-      // Сброс золотого свечения при клике в пустую область
       if (lastSelectedMarker && lastSelectedMarker._icon) {
-        lastSelectedMarker._icon.classList.remove('glow-marker');
+        ['glow-loot', 'glow-key', 'glow-extract', 'glow-spawn', 'glow-interact', 'glow-quest'].forEach(function(cls) {
+          lastSelectedMarker._icon.classList.remove(cls);
+        });
         lastSelectedMarker = null;
       }
 
