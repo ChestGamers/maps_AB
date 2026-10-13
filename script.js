@@ -39,7 +39,6 @@
   var markersData = [];
   var markerToDeleteId = null;
   var editingMarkerId = null;
-  var lastSelectedMarker = null;
 
   var selectedCategoryValue = 'loot';
   var selectedSubcategoryValue = 'valuable';
@@ -277,7 +276,6 @@
       if (!mapConfig) return;
 
       currentMapKey = mapKey;
-      lastSelectedMarker = null;
 
       var img = new Image();
       img.onload = function () {
@@ -466,7 +464,7 @@
           container.querySelectorAll('.icon-option-item').forEach(function (i) { i.classList.remove('selected'); });
           item.classList.add('selected');
 
-          // Автоматическое заполнение названия метки именем иконки
+          // Автоматически заполняем название метки именем иконки
           if (markerTitleInput) {
             markerTitleInput.value = cleanName;
           }
@@ -489,10 +487,6 @@
         if (!wasOpen) box.classList.add('open');
       };
     }
-
-    document.onclick = function () {
-      document.querySelectorAll('.custom-select-box').forEach(function (b) { b.classList.remove('open'); });
-    };
 
     function updateSubcategoriesDropdown(categoryVal) {
       var subBox = document.getElementById('subcategory-select');
@@ -782,7 +776,6 @@
     function renderMarkers() {
       if (!markerGroup) return;
       markerGroup.clearLayers();
-      lastSelectedMarker = null;
       if (!Array.isArray(markersData)) return;
 
       var searchQuery = filterSearch ? filterSearch.value.toLowerCase().trim() : '';
@@ -802,7 +795,7 @@
           return;
         }
 
-        // Фильтрация по названию маркера
+        // Фильтрация маркеров на карте по введённому названию
         if (searchQuery && item.title && !item.title.toLowerCase().includes(searchQuery)) {
           return;
         }
@@ -823,17 +816,6 @@
           if (e && e.originalEvent) {
             e.originalEvent.stopPropagation();
           }
-
-          // Переключение золотого свечения
-          if (lastSelectedMarker && lastSelectedMarker._icon) {
-            lastSelectedMarker._icon.classList.remove('glow-marker');
-          }
-
-          if (marker._icon) {
-            marker._icon.classList.add('glow-marker');
-            lastSelectedMarker = marker;
-          }
-
           openCenteredPopup(item);
         });
 
@@ -871,12 +853,6 @@
     }
 
     map.on('click', function (e) {
-      // Сброс золотого свечения при клике в пустую область
-      if (lastSelectedMarker && lastSelectedMarker._icon) {
-        lastSelectedMarker._icon.classList.remove('glow-marker');
-        lastSelectedMarker = null;
-      }
-
       var lat = e.latlng.lat;
       var lng = e.latlng.lng;
       var maxH = currentMapBounds[1][0];
@@ -1018,6 +994,7 @@
         });
     }
 
+    // Поиск теперь обновляет отображение меток на карте по их названию
     if (filterSearch) {
       filterSearch.oninput = function () {
         renderMarkers();
