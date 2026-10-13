@@ -20,7 +20,6 @@ html, body {
   z-index: 1;
 }
 
-/* Плавающая кнопка (по умолчанию для мобильных — внизу справа) */
 .floating-btn {
   position: fixed;
   bottom: 20px;
@@ -50,13 +49,12 @@ html, body {
   transform: scale(0.96);
 }
 
-/* Адаптивность для планшетов и ПК (экраны от 768px и шире) */
 @media (min-width: 768px) {
   .floating-btn {
     top: 20px;
     bottom: auto;
     right: 20px;
-    border-radius: 8px; /* На ПК строгие скругления смотрятся аккуратнее */
+    border-radius: 8px;
   }
 }
 
