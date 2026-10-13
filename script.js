@@ -809,14 +809,17 @@
 
         var markerOptions = {};
         if (item.icon) {
+          // Проверяем, выбрана ли иконка в активных фильтрах
+          var isFilteredByIcon = activeIconFilters.size > 0 && activeIconFilters.has(item.icon);
           markerOptions.icon = L.icon({
             iconUrl: item.icon,
             iconSize: [28, 28],
             iconAnchor: [14, 14],
-            popupAnchor: [0, -14]
+            popupAnchor: [0, -14],
+            className: isFilteredByIcon ? 'glow-marker' : ''
           });
         }
-
+        
         var marker = L.marker(item.coords, markerOptions);
 
         marker.on('click', function (e) {
