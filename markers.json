@@ -8122,4 +8122,92 @@
     "media": "",
     "description": ""
   }
+{
+    "id": "mark_1791981421264",
+    "map": "airport",
+    "createdBy": "user_1790547559516_ksp1r",
+    "category": "interact",
+    "subcategory": null,
+    "title": "Военный терминал",
+    "coords": [
+      1920.3,
+      2208.7
+    ],
+    "icon": "icon/Военный терминал.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1791981455198",
+    "map": "airport",
+    "createdBy": "user_1790547559516_ksp1r",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Большой ящик с материалами",
+    "coords": [
+      1920.9,
+      2246.3
+    ],
+    "icon": "icon/Большой ящик с материалами.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1791981526793",
+    "map": "airport",
+    "createdBy": "user_1790547559516_ksp1r",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Длинный ящик с оружием",
+    "coords": [
+      1879.6,
+      2247.8
+    ],
+    "icon": "icon/Длинный ящик с оружием.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1791981544038",
+    "map": "airport",
+    "createdBy": "user_1790547559516_ksp1r",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Пальто",
+    "coords": [
+      1879.3,
+      2238.3
+    ],
+    "icon": "icon/Пальто.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  }
 ]
