@@ -15587,5 +15587,269 @@
     "video": null,
     "media": "",
     "description": ""
+  },
+  {
+    "id": "mark_1793485084039",
+    "map": "airport_1f",
+    "createdBy": "user_1793483701292_c1ppv",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Чемодан",
+    "coords": [
+      852.6,
+      1704.6
+    ],
+    "icon": "icon/Чемодан.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793485106935",
+    "map": "airport_1f",
+    "createdBy": "user_1793483701292_c1ppv",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Спортивная сумка",
+    "coords": [
+      867.1,
+      1709.2
+    ],
+    "icon": "icon/Спортивная сумка.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793485120453",
+    "map": "airport_1f",
+    "createdBy": "user_1793483701292_c1ppv",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Ящик для гранат",
+    "coords": [
+      902.4,
+      1706.3
+    ],
+    "icon": "icon/Ящик для гранат.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793485294485",
+    "map": "airport_1f",
+    "createdBy": "user_1793483701292_c1ppv",
+    "category": "interact",
+    "subcategory": null,
+    "title": "Переключатель выхода",
+    "coords": [
+      1162,
+      275.1
+    ],
+    "icon": "icon/Переключатель выхода.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793485355360",
+    "map": "airport_1f",
+    "createdBy": "user_1793483701292_c1ppv",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Домашний ПК",
+    "coords": [
+      1198.2,
+      579
+    ],
+    "icon": "icon/homePC.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793485394108",
+    "map": "airport_1f",
+    "createdBy": "user_1793483701292_c1ppv",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Домашний ПК",
+    "coords": [
+      1297,
+      575.6
+    ],
+    "icon": "icon/homePC.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793485448071",
+    "map": "airport_1f",
+    "createdBy": "user_1793483701292_c1ppv",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Домашний ПК",
+    "coords": [
+      1213.1,
+      278
+    ],
+    "icon": "icon/homePC.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793485477159",
+    "map": "airport_1f",
+    "createdBy": "user_1793483701292_c1ppv",
+    "category": "loot",
+    "subcategory": "civilian",
+    "title": "Большой набор инструментов",
+    "coords": [
+      1315.9,
+      277.5
+    ],
+    "icon": "icon/Большой набор инструментов.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793485501859",
+    "map": "airport_1f",
+    "createdBy": "user_1793483701292_c1ppv",
+    "category": "loot",
+    "subcategory": "clothes",
+    "title": "Хим. костюм",
+    "coords": [
+      1347.5,
+      300.4
+    ],
+    "icon": "icon/Хим. костюм.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793485521945",
+    "map": "airport_1f",
+    "createdBy": "user_1793483701292_c1ppv",
+    "category": "interact",
+    "subcategory": null,
+    "title": "Военный терминал",
+    "coords": [
+      1399.2,
+      419.9
+    ],
+    "icon": "icon/Военный терминал.png",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793485614284",
+    "map": "airport_1f",
+    "createdBy": "user_1793483701292_c1ppv",
+    "category": "loot",
+    "subcategory": "military",
+    "title": "Длинный ящик с оружием",
+    "coords": [
+      1378.3,
+      639.4
+    ],
+    "icon": "icon/Длинный ящик с оружием.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793486362931",
+    "map": "airport_1f",
+    "createdBy": "user_1793483701292_c1ppv",
+    "category": "interact",
+    "subcategory": null,
+    "title": "Новая метка",
+    "coords": [
+      1462.8,
+      586.5
+    ],
+    "icon": null,
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможное появление книги с кодами из башни управления"
   }
 ]
