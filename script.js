@@ -97,7 +97,7 @@
         }
       ]
     },
-    { id: 'key', title: 'Закрытые комнаты', icons: ['icon/key.jpeg', 'icon/Ключ от тайника в районе залива.png', 'icon/Карта доступа к зоне управления.png'] },
+    { id: 'key', title: 'Закрытые комнаты', icons: ['icon/key.jpeg', 'icon/Взломать дверь.png', 'icon/Дверь с кодом.png', 'icon/Ключ от тайника в районе залива.png', 'icon/Карта доступа к зоне управления.png'] },
     { id: 'extract', title: 'Точки эвакуации', icons: ['icon/Эвакуация.svg', 'icon/Платный выход.svg', 'icon/Выход с таймером.svg'] },
     { id: 'spawn', title: 'Точки появления', icons: ['icon/PlayerSpawn.svg', 'icon/BossSpawn.svg'] },
     { 
