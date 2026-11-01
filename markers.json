@@ -17721,5 +17721,577 @@
     "video": null,
     "media": "",
     "description": "Лифт отправится автоматически через 2 минуты"
+  },
+  {
+    "id": "mark_1793564569684",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "spawn",
+    "subcategory": null,
+    "title": "Спавн ЧВК",
+    "coords": [
+      334.3,
+      2082
+    ],
+    "icon": "icon/Спавн ЧВК.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793564636481",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      188,
+      2408
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможное появление временного сейфа"
+  },
+  {
+    "id": "mark_1793564670750",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      352.1,
+      2504.1
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793564689298",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      383.5,
+      2642
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможное появление временного сейфа"
+  },
+  {
+    "id": "mark_1793564705519",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      812.7,
+      2921.3
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможное появление временного сейфа"
+  },
+  {
+    "id": "mark_1793564723858",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      1040.9,
+      3266.8
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможное появление временного сейфа"
+  },
+  {
+    "id": "mark_1793564740027",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      1120.6,
+      3066.9
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможное появление временного сейфа"
+  },
+  {
+    "id": "mark_1793564748309",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      1347.3,
+      3386.9
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793564771281",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      1159.7,
+      2735.1
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможное появление временного сейфа"
+  },
+  {
+    "id": "mark_1793564779305",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      1165.3,
+      2539.9
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793564789565",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      726.7,
+      2304.3
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможное появление временного сейфа"
+  },
+  {
+    "id": "mark_1793564812142",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      743.8,
+      2096.4
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможное появление временного сейфа"
+  },
+  {
+    "id": "mark_1793564818195",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      679.5,
+      1661.2
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793564824382",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      915.3,
+      1706.3
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможное появление временного сейфа"
+  },
+  {
+    "id": "mark_1793564842787",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      1519.8,
+      1864.9
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможное появление временного сейфа"
+  },
+  {
+    "id": "mark_1793564857007",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      1599.1,
+      1804.9
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793564881044",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      1714.8,
+      2057.8
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": "Возможное появление временного сейфа"
+  },
+  {
+    "id": "mark_1793564897898",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      1712.6,
+      2622
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793564909747",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      1640.5,
+      2764.8
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793564917353",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      1733.8,
+      3060.4
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793564924568",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      1938.9,
+      2699.7
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793564928310",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "loot",
+    "subcategory": "valuable",
+    "title": "Электронный сейф",
+    "coords": [
+      1940.3,
+      2845.4
+    ],
+    "icon": "icon/Электронный сейф.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793565011196",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "extract",
+    "subcategory": null,
+    "title": "Эвакуация",
+    "coords": [
+      141.8,
+      2851.3
+    ],
+    "icon": "icon/Эвакуация.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793565026009",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "extract",
+    "subcategory": null,
+    "title": "Эвакуация",
+    "coords": [
+      798.7,
+      3213.4
+    ],
+    "icon": "icon/Эвакуация.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793565047880",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "extract",
+    "subcategory": null,
+    "title": "Выход с таймером",
+    "coords": [
+      1343.6,
+      1739.2
+    ],
+    "icon": "icon/Выход с таймером.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
+  },
+  {
+    "id": "mark_1793565064506",
+    "map": "bay_area",
+    "createdBy": "user_1791983386545_7ronn",
+    "category": "extract",
+    "subcategory": null,
+    "title": "Выход с таймером",
+    "coords": [
+      1925.8,
+      2769.2
+    ],
+    "icon": "icon/Выход с таймером.svg",
+    "modes": [
+      "operation",
+      "lockdown",
+      "forbidden"
+    ],
+    "image": null,
+    "video": null,
+    "media": "",
+    "description": ""
   }
 ]
